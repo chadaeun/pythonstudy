@@ -26,3 +26,13 @@ with (open("input.txt", "r", encoding="utf-8") as fread,
 이렇게 `with` 키워드를 이용한 구문에 괄호를 쓸 수 있다.
 
 [보너스: Context Manager](/bonus/context_manager.md)
+
+## Better error messages
+
+- SyntaxError, IndentationError의 에러 메시지가 훨씬 설명적으로 바뀜
+- AttributeError, NameError에서 비슷한 이름 추천해줌
+
+## PEP 634: Structural Pattern Matching
+
+[PEP 634: Structural Pattern Matching](match_case.md)
+
